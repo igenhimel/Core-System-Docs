@@ -1,70 +1,34 @@
-# Core-System-Docs
+Software Requirements Specification (SRS) for Face Recognition Door Unlock Project: 
 
-Ransomware
--------------
-1. One Kind of malware
-2. Blocked/restricted user to enter his/her machine
-3. Encrypted all files from hard disk
+Introduction:
+The purpose of this document is to provide a comprehensive and detailed description of the Face Recognition Door Unlock Project. The project is aimed at developing a secure and user-friendly door unlock system that utilizes face recognition technology. The system will allow users to unlock the door using their face as the key.
 
-Royal ransoware
-------------------
-1. Encrypts files and appends the .royal extension to filname.
-      .jpg.royal    .exe.royal
-2.Ransom note state that victims cannot access their files bcz they are encrypted.
+System Requirements:
+1. Hardware: a. Arduino Uno microcontroller b. Servo Motor c. Web camera
+2. Software: a. Python programming language b. OpenCV library c. PySerial library d. Pyttsx3 library e. Numpy library
 
-3. It is rarely possible to decrypt files encrypted by the ransomware without paying them a ransom.
-4. Free data recovery is impossible unless victims have a data backup or a workingthird-party decryption tools.
-5. Common diff between ransomware attacks are the prices of decryption tools and algorithm used to encrypt files.
-6. Ransomware is distributed via fake installer for pirated/cracked software
+Functional Requirements:
+1. Face detection: The system should be able to detect a face in real-time and compare it with the registered faces stored in the database.
+2. Face recognition: The system should be able to recognize the face and match it with the registered faces in the database.
+3. Unlock mechanism: Upon successful recognition of the face, the system should trigger the servo motor to unlock the door.
+4. User interface: The system should have a user-friendly interface that allows users to register their faces and manage the registered faces in the database.
+5. Voice prompt: The system should provide audio feedback to the users through a voice prompt.
 
-Vmware Vsphere
-----------------
-Developed by VMware, vSphere is a cloud computing virtualization platform.
-vSphere is a suite of virtualization solutions that includes vCenter, ESXi, vRealized Operations, and more
-The core ability of vSphere is the centralized management of your virtual machines and virtual environment.
+Non-Functional Requirements:
+1. Accuracy: The system should have a high accuracy rate in detecting and recognizing faces.
+2. Real-time performance: The system should have a fast processing time and should provide real-time results.
+3. User experience: The system should provide a smooth and convenient user experience.
 
-Functionality of Vsphere:
+Project Plan:
+1. Requirements gathering and analysis: The project team will gather and analyze the system requirements for the project.
+2. Design and development: The project team will design and develop the system, including the hardware setup and the software implementation.
+3. Testing: The project team will perform thorough testing of the system to ensure that it meets the functional and non-functional requirements.
+4. Deployment: The project team will deploy the system and provide training and support to the end-users.
+5. Maintenance: The project team will provide ongoing maintenance and support to ensure the smooth operation of the system.
 
-   Easily creates and manages multiple virtual machines
-   Migrates workloads and data center maintenance live and avoid downtime
-   Manages offices remotely
-   Creates a flexible environment customized to your organization’s specific needs and requirements
+Conclusion:
+The Face Recognition Door Unlock Project is a secure and user-friendly door unlock system that utilizes face recognition technology. The system provides a convenient and secure way for users to unlock the door using their face. The project plan outlines the steps for developing and deploying the system and ensuring its long-term success.
 
-Benefits of Vsphere: 
-
-   Improved security and protection of valuable data
-   Reduced IT hardware costs
-
-Vcenter Server
----------------------
-vCenter is a component of VMware’s vSphere. It is designed to offer advanced server management 
-capabilities through a centralized platform.
-
- Function:
- 1. Runs up to 2,000 hosts and 35,000 virtual machines using a single instance
- 2. Solves problems faster with customizable trigger
- 3. Full scalability across hybrid cloud environments
-
-Vmware ESXi
---------------
-VMware ESXi is yet another component of vSphere. It is also one of the most popular components because it delivers the core virtualization 
-services organizations need. It is a bare-metal hypervisor:bare metal hypervisor is the most commonly deployed 
-type of hypervisor. This is where the virtualization software is installed directly on the hardware
-
--->When a hypervisor is installed directly on the hardware of a physical machine, 
-   between the hardware and the operating system (OS), it is called a bare metal hypervisor.
-
-Hypervisor: A hypervisor, also known as a virtual machine monitor or VMM, 
-            is software that creates and runs virtual machines (VMs).
-
-Vmware ESXi :This type of hypervisor installs directly onto a physical machine and creates the 
-             separation necessary to divide it into one or more virtual machines. 
-
-Function : Reducing hardware resources and improving efficiency
-           Reduces the IT footprint
-
-vCenter vs. ESXi
---------------------------
-ESXi and vCenter are two different components of vSphere. vCenter is advanced server management software 
-usually deployed as a pre-configured Linux virtual machine, while ESXi is a virtualized hypervisor 
-that is installed only on physical machines. These are both part of the vSphere solution.
+Md. Habib Al Hasan 
+Intern, Technology Division 
+habib32844@bracbank.com
