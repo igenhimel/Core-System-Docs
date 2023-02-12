@@ -35,6 +35,6 @@ Conclusion:
 ------------
 The Face Recognition Door Unlock Project is a secure and user-friendly door unlock system that utilizes face recognition technology. The system provides a convenient and secure way for users to unlock the door using their face. The project plan outlines the steps for developing and deploying the system and ensuring its long-term success.
 
-##Md. Habib Al Hasan 
-##Intern, Technology Division 
-##habib32844@bracbank.com
+Md. Habib Al Hasan 
+Intern, Technology Division 
+habib32844@bracbank.com
