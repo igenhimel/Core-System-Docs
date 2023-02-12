@@ -1,4 +1,4 @@
-#Software Requirements Specification (SRS) for Face Recognition Door Unlock Project: 
+<h>Software Requirements Specification (SRS) for Face Recognition Door Unlock Project: </h>
 
 Introduction:
 --------------
